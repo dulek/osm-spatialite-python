@@ -1,0 +1,72 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage[T1]{fontenc}
+\usetheme{Warsaw}
+\title{OpenStreetMaps + Spatialite + Python}
+\author{Michał Dulko}
+\date{23 marca 2015}
+
+\begin{document}
+
+	\begin{frame}
+		\titlepage
+	\end{frame}
+
+	\begin{frame}{Agenda}
+		\setcounter{tocdepth}{1}
+		\tableofcontents
+	\end{frame}
+
+	\section{Wstęp}
+		\subsection{OpenStreetMap}
+			\begin{frame}{\insertsubsectionhead}
+				\begin{itemize}
+					\item Od 2004 roku.
+					\item Darmowe.
+					\item Dostępne.
+					\item Całkiem dokładne.
+				\end{itemize}
+			\end{frame}
+
+		\subsection{Dane}
+			\begin{frame}{\insertsubsectionhead}
+				\begin{itemize}
+					\item OSM udostępnia API.
+					\item Planet.osm \pause(XML variant over 554GB uncompressed, 39.6GB bz2 compressed and 26.7GB PBF)
+					\item „Extracts” (np. http://download.geofabrik.de/)
+				\end{itemize}
+			\end{frame}
+
+
+		\subsection{Spatialite}
+			\begin{frame}{\insertsubsectionhead}
+				\begin{itemize}
+					\item Rozwinięcie SQLite.
+					\item OpenSource.
+					\item Łatwo dostępne.
+					\item Zintegrowane z OSM.
+				\end{itemize}
+			\end{frame}
+		
+		\subsection{Python}
+			\begin{frame}{\insertsubsectionhead}
+				„You tell me.”
+			\end{frame}
+
+	\section{Demo}
+		\begin{frame}
+			\begin{Huge}
+				\centerline{Demo}
+			\end{Huge}
+		\end{frame}
+
+	\begin{frame}
+		\begin{Huge}
+			\centerline{Thank you!}
+		\end{Huge}
+	\end{frame}
+
+\end{document}
